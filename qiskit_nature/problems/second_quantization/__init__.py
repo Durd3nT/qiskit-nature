@@ -29,9 +29,11 @@ Second-Quantization Problems (:mod:`qiskit_nature.problems.second_quantization`)
 from .base_problem import BaseProblem
 from .electronic import ElectronicStructureProblem
 from .vibrational.vibrational_structure_problem import VibrationalStructureProblem
+from .lattice.spin_boson_problem import SpinBosonProblem
 
 __all__ = [
     "BaseProblem",
     "ElectronicStructureProblem",
     "VibrationalStructureProblem",
+    "SpinBosonProblem"
 ]
